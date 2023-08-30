@@ -31,17 +31,17 @@
                 <commit>${user.name}-local</commit>
                 <branch>${user.name}-local</branch>
                 <repo.server.protocol>http</repo.server.protocol>
-                <repo.server.root>artifactory.hdfcbankuat.com</repo.server.root>
+                <repo.server.root>artifactory.com</repo.server.root>
                 <repo.path>artifactory</repo.path>
-                <repo.name>apigee_</repo.name>
+                <repo.name></repo.name>
                 <scmUsername/>
                 <scmPassword/>
 
                 <!--Release repo URL for New Nexus -->
-                <releases.distribution.url>${repo.server.protocol}://${repo.server.root}/${repo.path}/apigee_apirelease/
+                <releases.distribution.url>${repo.server.protocol}://${repo.server.root}/${repo.path}/release/
                 </releases.distribution.url>
                 <!--Snapshot repo URL for New Nexus -->
-                <snapshot.distribution.url>${repo.server.protocol}://${repo.server.root}/${repo.path}/apigee_apisnapshot/
+                <snapshot.distribution.url>${repo.server.protocol}://${repo.server.root}/${repo.path}/snapshot/
                 </snapshot.distribution.url>
 
             </properties>
