@@ -70,23 +70,7 @@
                     </activation>
                     <build>
                         <plugins>
-                         <!--<plugin>
-                           <groupId>org.sonarsource.scanner.maven</groupId>
-                           <artifactId>sonar-maven-plugin</artifactId>
-                           <version>3.9.1.2184</version> <!-- Use the latest version -->
-                     <executions>
-                         <execution>
-                             <phase>verify</phase>
-                             <goals>
-                                 <goal>sonar</goal>
-                             </goals>
-                </execution>
-            </executions>
-            <configuration>
-                <sonar.host.url>http://35.154.5.179:9000</sonar.host.url>
-                <sonar.login>squ_470ed9ef4fe48202cbf0bb5a4bafc5d738759b23</sonar.login> <!-- Use the Jenkins environment variable here -->
-            </configuration>
-        </plugin> -->
+                         
                             <plugin>
                                 <groupId>external.atlassian.jgitflow</groupId>
                                 <artifactId>jgitflow-maven-plugin</artifactId>
