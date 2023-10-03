@@ -31,7 +31,7 @@
                 <commit>${user.name}-local</commit>
                 <branch>${user.name}-local</branch>
                 <repo.server.protocol>http</repo.server.protocol>
-                <repo.server.root>65.2.130.172:8082</repo.server.root>
+                <repo.server.root>43.205.228.235:8082</repo.server.root>
                 <repo.path>artifactory</repo.path>
                 <scmUsername/>
                 <scmPassword/>
