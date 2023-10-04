@@ -77,8 +77,10 @@
                                 <version>1.0-m5.1</version>
                                 <configuration>
                                     <noDeploy>true</noDeploy>
-                                    <username>${scmUsername}</username>
-                                    <password>${scmPassword}</password>
+<!--                                     <username>${scmUsername}</username>
+                                    <password>${scmPassword}</password> -->
+                                     <username>pawankopparthi</username>
+                                    <password>pawanreddy68</password>    
                                     <!-- <enableSshAgent>true</enableSshAgent>-->
                                     <flowInitContext>
                                         <masterBranchName>master</masterBranchName>
