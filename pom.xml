@@ -104,6 +104,15 @@
                                     <enableFeatureVersions>true</enableFeatureVersions>
                                     <!--                            <versionNumberToIncrement>1</versionNumberToIncrement>-->
                                 </configuration>
+                           <executions>
+                              <execution>
+                                     <id>run-gitflow-commands</id>
+                                     <phase>verify</phase> <!-- Choose the appropriate phase -->
+                                   <goals>
+                                          <goal>runGitflowCommands</goal>
+                                  </goals>
+                             </execution>
+                          </executions>
                             </plugin>
                         </plugins>
                     </build>
