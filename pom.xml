@@ -80,7 +80,7 @@
 <!--                                     <username>${scmUsername}</username>
                                     <password>${scmPassword}</password> -->
                                      <username>pawankopparthi</username>
-                                    <password>pawanreddy68</password>    
+                                    <password>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</password>    
                                     <!-- <enableSshAgent>true</enableSshAgent>-->
                                     <flowInitContext>
                                         <masterBranchName>master</masterBranchName>
