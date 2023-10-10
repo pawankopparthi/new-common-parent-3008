@@ -31,7 +31,7 @@
                 <commit>${user.name}-local</commit>
                 <branch>${user.name}-local</branch>
                 <repo.server.protocol>http</repo.server.protocol>
-                <repo.server.root>13.235.246.6:8082</repo.server.root>
+                <repo.server.root>13.126.57.65:8081</repo.server.root>
                 <repo.path>artifactory</repo.path>
                 <scmUsername/>
                 <scmPassword/>
@@ -80,7 +80,7 @@
 <!--                                     <username>${scmUsername}</username>
                                     <password>${scmPassword}</password> -->
                                      <username>pawankopparthi</username>
-                                    <password>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</password>    
+                                    <password>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</password>    
                                     <!-- <enableSshAgent>true</enableSshAgent>-->
                                     <flowInitContext>
                                         <masterBranchName>master</masterBranchName>
